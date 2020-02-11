@@ -1,0 +1,17 @@
+birinci = input()
+ikinci = input()
+liste = ["taş","kağıt","makas"]
+if birinci==ikinci:
+    print("berabere")
+elif birinci==liste[0] and ikinci==liste[1]:
+    print("ikinci oyuncu kazandı")
+elif birinci==liste[0] and ikinci==liste[2]:
+    print("birinci oyuncu kazandı")
+elif birinci==liste[1] and ikinci==liste[0]:
+    print("birinci oyuncu kazandı")
+elif birinci==liste[1] and ikinci==liste[2]:
+    print("ikinci oyuncu kazandı")
+elif birinci==liste[2] and ikinci==liste[0]:
+    print("ikinci oyuncu kazandı")
+elif birinci==liste[2] and ikinci==liste[1]:
+    print("birinci oyuncu kazandı")
