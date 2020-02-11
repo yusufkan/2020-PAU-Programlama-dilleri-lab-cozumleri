@@ -1,0 +1,14 @@
+sayi = int(input())
+liste = []
+a=0
+for i in range (2,sayi-1):
+    if sayi % i == 0:
+        liste.append(i)
+        a+=1
+toplam=0
+for i in range (0,a):
+    toplam = liste[i]+toplam
+if toplam+1==sayi:
+    print("mükemmel")
+else:
+    print("mükemmel deðil")

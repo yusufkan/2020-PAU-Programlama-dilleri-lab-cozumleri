@@ -1,0 +1,6 @@
+a=input()
+b=input()
+x=a[0:2]
+y=b[0:2]
+print(a.replace(x,y))
+print(b.replace(y,x))
